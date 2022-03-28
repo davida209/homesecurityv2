@@ -1,0 +1,15 @@
+.textos{
+
+    text-align: center;
+    align-items: center;
+    }
+    
+    #button-addon1{
+        background-color: rgb(58, 50, 173);
+        color: white;;
+    }
+    
+    #agregar{
+        align-items: center;
+        text-align: center;
+    }

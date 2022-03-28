@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    /* FUENTES */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -moz-osx-smoothing: antialiased;
+
+}
+
+#header{
+    height: 120px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #ccc;
+    border-top: 3px solid rgb(10, 125, 255);
+}
+
+.center{
+    width: 75%;
+    margin: 0px auto;
+}
+
+.cleafix{
+    clear: both;
+    float: none;
+}
+
+#logo{
+    width: 30%;
+    font-size: 30x;
+    float: left;
+    margin-top: 10px;
+}
+
+#logo img{
+    display: block;
+    float: left;
+    height: 100px;
+    
+}
+
+#brand {
+    display: block;
+    margin: 0px;
+    float: left;
+    margin-top: 40px;
+}
+
+#menu{
+    width: 70%;
+    float: right;
+    font-size: 18px;
+}
+
+#menu ul{
+    line-height: 85px;
+    width: 60%;
+    float: right;
+}
+
+#menu ul li{
+    display: inline-block;
+    list-style: none;
+    height: 46px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: #444;
+    transition: 300ms all;
+}
+
+#menu a:hover{
+    color: rgb(10, 125, 255); 
+}

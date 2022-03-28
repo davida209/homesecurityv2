@@ -1,0 +1,22 @@
+#imagenlogin{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    
+    }
+    
+    #texto{
+        color: black;
+        text-align: center;
+    }
+    
+    #form{
+        margin: 50%;
+    }
+    
+    .input{
+        text-align: left;
+    }
+    #centrar{
+        display: inline-block;
+    }
