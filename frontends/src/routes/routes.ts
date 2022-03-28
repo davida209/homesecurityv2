@@ -1,3 +1,4 @@
+import { Component } from '@angular/core';
 import { LayoutComponent } from 'src/app/layout/layout.component';
 import { AddserviceComponent } from 'src/app/paginas/addservice/addservice.component';
 import { ContraolvidadaComponent } from 'src/app/paginas/contraolvidada/contraolvidada.component';
@@ -12,20 +13,21 @@ export const routes = [
   {
     path: 'home',
     component: LayoutComponent,
+    
     children: [
-      { path: '', component: HomepageComponent },
-      {path: 'home', component: HomepageComponent},
-      {path: 'panel', component: PerfilComponent},
+      {path: 'inicio', component: InicioComponent},
+      {path: 'perfil', component: PerfilComponent},
       {path: 'addservice', component: AddserviceComponent},
       {path: 'contraolvidada', component: ContraolvidadaComponent},
-      {path: 'inicio', component: InicioComponent},
       {path: 'visita', component: VisitaComponent},
-      {path: 'perfil', component: PerfilComponent},
+
+
     ],
   },
   {
     path: 'contraolvidada', component: ContraolvidadaComponent
-  }
+  },
+
   //not lazy load components
   //{ path: '**', redirectTo: 'home-page' },
 ];
